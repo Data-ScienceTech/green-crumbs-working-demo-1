@@ -6,6 +6,7 @@ import { sentryVitePlugin } from "@sentry/vite-plugin";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/green-crumbs-working-demo-1/",
   base: process.env.VITE_BASE_PATH || "/",
   server: {
     host: "::",
